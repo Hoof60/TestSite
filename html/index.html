@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Praise Sek-Lokkar">
+    <meta name="keywords" content="Sek-Lokkar, HTML, Wrex, Imperium">
+    <meta name="author" content="Tombo">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .background{
+            background-color: black;
+            color: blueviolet
+        }
+    </style>
+    <title>Tombo's Page</title>
+</head>
+<body>
+    <!-- Headings-->
+
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <hr> 
+
+    <!-- Paragraphs -->
+    <div>
+        <p title="This is a tooltop"> Lorem ipsum, <strong>dolor sit</strong>  <em>amet</em> <mark>consectetur</mark> <small>elit</small> . Nisi <del>quae</del>alias fugiat <ins>esse. Quam </ins> esse. Quam eum <sub>possimus</sub>  <sup> eius nobis </sup>, eius nobis maxime nihil beatae dolor rerum ipsam voluptatibus obcaecati quod!</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quae alias fugiat veritatis esse. Quam eum delectus possimus doloremque, eius nobis maxime nihil beatae dolor rerum ipsam voluptatibus obcaecati quod!</p>
+        <p> Lorem ipsum, <span style="color:red">dolor sit amet consectetur adipisicing elit. Nisi quae alias</span> fugiat veritatis esse. Quam eum delectus possimus doloremque, eius nobis maxime nihil beatae dolor rerum ipsam voluptatibus obcaecati quod!</p>
+        <p class="background"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quae alias fugiat veritatis esse. Quam eum delectus possimus doloremque, eius nobis maxime nihil beatae dolor rerum ipsam voluptatibus obcaecati quod!</p>
+    </div>
+
+
+    <!-- Image and BookMark -->
+    <a href="#bookmark">
+    <img src="260px-Mammalian_Citadel.png" alt="Wrex Space Station" width="400">
+    </a>
+
+
+    <!-- List Examples -->
+    <ol type="i" start="3">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+            <ul>
+                <li>Something</li>
+                <li>Something</li>
+                <li>Something</li>
+            </ul>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+        <li>List Item 6</li>
+    </ol>
+
+    <br><hr><br>
+    <!-- Table Examples -->
+    <table>
+        <caption>Wrex's Fist</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Power</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dune</td>
+                <td>Cruiser</td>
+                <td>523</td>
+            <tr>
+                <td>Pillar</td>
+                <td>Cruiser</td>
+                <td>502</td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Id Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dune</td>
+                <td>104</td>
+                <td>-40815029</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td>Dune</td>
+        </tr>
+        <tr>
+            <th rowspan="2">ID No.</th>
+            <td>104</td>
+        </tr>
+        <tr>
+            <td>-40815029</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+
+    <!-- Form Example  -->
+    <form action="server.php">
+        <fieldset>
+            <legend>Personal Information:</legend>
+            FirstName:<br>
+            <input type="text" name="firstname" value="" placeholder="First Name Here"><br>
+            Last Name:<br>
+            <input type="text" name="secondname" value="" placeholder="Second Name Here"><br>
+
+            <input type="radio" name="options"> Worker
+            <input type="radio" name="options"> Specialist
+            <input type="radio" name="options"> Ruler<br>
+
+            <input type="checkbox" name="checkboxes" checked> Taxes
+            <input type="checkbox" name="checkboxes"> Robo
+            <input type="checkbox" name="checkboxes"> Service <br>
+            <label for="shipSelect">Select:</label>
+            <select name="ship" id="shipSelect" multiple>
+                <option value="Narsil" selected>Narsil</option>
+                <option value="Jodran">Jodran</option>
+                <option value="Dune">Dune</option>
+            </select> 
+            <br>
+
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Button -->
+    <button>Click Me</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Bookmarked paragraph -->
+    <p id="bookmark">This is paragraph</p>
+
+
+</body>
+</html>
